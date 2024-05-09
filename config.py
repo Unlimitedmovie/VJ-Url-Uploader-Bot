@@ -17,12 +17,12 @@ def is_enabled(value, default):
 
 class Config(object):
     # Bot Information 
-    TECH_VJ_BOT_TOKEN = os.environ.get("TECH_VJ_BOT_TOKEN", "")
-    TECH_VJ_BOT_USERNAME = os.environ.get("TECH_VJ_BOT_USERNAME", "") # Bot username without @.
+    TECH_VJ_BOT_TOKEN = os.environ.get("TECH_VJ_BOT_TOKEN", "6761133611:AAGt_3gv-6oUfjgE0kVfUYs7juqdJlHOf8I")
+    TECH_VJ_BOT_USERNAME = os.environ.get("TECH_VJ_BOT_USERNAME", "Movie_File_Token_Bot") # Bot username without @.
     
     # The Telegram API things
-    TECH_VJ_API_ID = int(os.environ.get("TECH_VJ_API_ID", ""))
-    TECH_VJ_API_HASH = os.environ.get("TECH_VJ_API_HASH", "")
+    TECH_VJ_API_ID = int(os.environ.get("TECH_VJ_API_ID", "1768198143"))
+    TECH_VJ_API_HASH = os.environ.get("TECH_VJ_API_HASH", "ec1420b010830ad701cf518ce0474580")
     
     # the download location, where the HTTP Server runs
     TECH_VJ_DOWNLOAD_LOCATION = "./DOWNLOADS"
@@ -47,11 +47,11 @@ class Config(object):
     TECH_VJ_PROCESS_MAX_TIMEOUT = 3600
     
     # your telegram account id
-    TECH_VJ_OWNER_ID = int(os.environ.get("TECH_VJ_OWNER_ID", "")) 
+    TECH_VJ_OWNER_ID = int(os.environ.get("TECH_VJ_OWNER_ID", "1768198143")) 
     TECH_VJ_SESSION_NAME = "VJ-URL-UPLOADER-BOT"
     
     # database uri (mongodb)
-    TECH_VJ_DATABASE_URL = os.environ.get("TECH_VJ_DATABASE_URL", "")
+    TECH_VJ_DATABASE_URL = os.environ.get("TECH_VJ_DATABASE_URL", "mongodb+srv://armantkd309:N0YU6IxgY9UrgL20@cluster0.9c5gzsg.mongodb.net/?retryWrites=true&w=majority")
     TECH_VJ_MAX_RESULTS = "50"
 
     # channel information
